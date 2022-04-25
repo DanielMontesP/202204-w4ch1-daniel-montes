@@ -10,21 +10,21 @@ function App() {
   // const personajes = importData();
 
   return (
-    <>
-      <div className="App">
-        <h1>Señores que te apuntan con el dedo...ohú</h1>
-        <Contador number="5" />
-        <Button className="ClassName" text="Marcar Todos" />
-        {/* <Button text="text" className="bt1" onClick={useState} /> */}
-        <Gentlemen
-          name="user1"
-          url="foto.png"
-          profesion="Apuntador de dedos"
-          twitter="twikitu"
-          estado="estadito"
-        />
-      </div>
-    </>
+    <div className="App">
+      <h1>Señores que te apuntan con el dedo...ohú</h1>
+      <Contador number="5" />
+      <Button className="ClassName" text="Marcar Todos" />
+
+      {/* <Button text="text" className="bt1" onClick={useState} /> */}
+
+      <Gentlemen
+        name="user1"
+        url="foto.png"
+        profesion="Apuntador de dedos"
+        twitter="twikitu"
+        estado="estadito"
+      />
+    </div>
   );
 }
 
